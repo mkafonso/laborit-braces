@@ -1,5 +1,5 @@
 {
-  "name": "@laboritdev/braces",
+  "name": "laborit-braces",
   "version": "3.0.4",
   "description": "Security patch of braces 3.0.3. Rejects brace nesting deeper than 128 and cyclic ASTs before the recursive walkers run (GHSA-vfj7-8cjw-p6xm).",
   "homepage": "https://github.com/mkafonso/laborit-braces",

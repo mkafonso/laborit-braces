@@ -1,4 +1,4 @@
-# @laboritdev/braces
+# laborit-braces
 
 Fork de [`braces`](https://www.npmjs.com/package/braces) `3.0.3` com o patch de [GHSA-vfj7-8cjw-p6xm](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm).
 
@@ -14,24 +14,16 @@ Repositório: [mkafonso/laborit-braces](https://github.com/mkafonso/laborit-brac
 
 Código original: Jon Schlinkert, licença MIT (`LICENSE`).
 
-## Publicar
-
-Pacotes com escopo saem como privados por padrão. Ajuste o acesso na hora de publicar:
-
-```bash
-npm publish --access restricted
-```
-
 ## Usar no lugar da `braces` vulnerável
 
-O nome publicado é `@laboritdev/braces`. O override instala esse tarball em `node_modules/braces`, que é o caminho que o `micromatch` e o resto da árvore exigem.
+O nome publicado é `laborit-braces`. O override instala esse tarball em `node_modules/braces`, que é o caminho que o `micromatch` e o resto da árvore exigem.
 
 npm e pnpm:
 
 ```json
 {
   "overrides": {
-    "braces": "npm:@laboritdev/braces@3.0.4"
+    "braces": "npm:laborit-braces@3.0.4"
   }
 }
 ```
@@ -43,7 +35,7 @@ Yarn 1:
 ```json
 {
   "resolutions": {
-    "braces": "npm:@laboritdev/braces@3.0.4"
+    "braces": "npm:laborit-braces@3.0.4"
   }
 }
 ```
